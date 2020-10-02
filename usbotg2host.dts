@@ -1,0 +1,38 @@
+/*
+* Device Tree overlay for 2x ili9341 2.2, 2.4, or 2.8"
+*
+*/
+
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "allwinner,sun8i-h3";
+	
+	fragment@0 {
+                target = <&usb_otg>;
+		__overlay__ {
+			status = "okay";
+                        dr_mode = "host";
+		};
+	};
+
+	fragment@1 {
+                target = <&usbphy>;
+		__overlay__ {
+			/*usb0_id_det-gpios = <&pio 6 12 GPIO_ACTIVE_HIGH>;*/ /* PG12 */
+			usb0_id_det-gpios = <&pio 6 12 0>; /* PG12 */
+			usb0_vbus-supply = <&reg_usb0_vbus>;
+		        status = "okay";
+		};
+	};
+
+	fragment@2 {
+                target = <&reg_usb0_vbus>;
+		__overlay__ {
+			gpio = <&r_pio 0 2 0x0>; /* PL2 */
+		        status = "okay";
+		};
+	};
+};
+
