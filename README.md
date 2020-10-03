@@ -15,6 +15,7 @@
 ## Installation
 
 Logged in as root
+
 armbian-config
 
 toggle usb on (when saved * should stay )
