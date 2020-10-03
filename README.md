@@ -47,58 +47,98 @@ root@orangepilite:~#
 Results:   Usb Host working on OTG mini plug
 
 root@orangepilite:~# armbian-add-overlay sun8i-h3-orangepi-lite.dts
+
 Compiling the overlay
+
 Copying the compiled overlay file to /boot/overlay-user/
+
 Reboot is required to apply the changes
+
 root@orangepilite:~#
 
 usb key board and Touchscreen on main usb ports
 
 Last login: Sat Oct  3 00:44:02 2020 from 192.168.1.8
+
 root@orangepilite:~# lsusb
+
 Bus 008 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 007 Device 003: ID 413c:2001 Dell Computer Corp. Keyboard HID Support
+
 Bus 007 Device 002: ID 413c:1001 Dell Computer Corp. Keyboard Hub
+
 Bus 007 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 006 Device 002: ID 0eef:0005 D-WAV Scientific Co., Ltd
+
 Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 009 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
 Keyboard removed
 
 
 root@orangepilite:~# lsusb
+
 Bus 008 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 007 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 006 Device 002: ID 0eef:0005 D-WAV Scientific Co., Ltd
+
 Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 009 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
 Key board on mini usb (OTG set to Host)
 
 root@orangepilite:~# lsusb
+
 Bus 008 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 007 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 006 Device 002: ID 0eef:0005 D-WAV Scientific Co., Ltd
+
 Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 002 Device 003: ID 413c:2001 Dell Computer Corp. Keyboard HID Support
+
 Bus 002 Device 002: ID 413c:1001 Dell Computer Corp. Keyboard Hub
+
 Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 Bus 009 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 root@orangepilite:~#
 
 
