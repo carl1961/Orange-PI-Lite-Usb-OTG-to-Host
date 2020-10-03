@@ -31,9 +31,13 @@ toggle usb on (when saved * should stay )
   Results: gave power to OTG port  (USB Host not working)
   
 root@orangepilite:~# armbian-add-overlay usbotg2host.dts
+
 Compiling the overlay
+
 Copying the compiled overlay file to /boot/overlay-user/
+
 Reboot is required to apply the changes
+
 root@orangepilite:~#
 
 
