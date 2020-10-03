@@ -24,14 +24,19 @@ toggle usb on (when saved * should stay )
 
  This is how I was able to install using ssh terminal (putty)
  
+ 
  root@orangepilite:~#
-
  wget    https://github.com/carl1961/Orange-PI-Lite-Usb-OTG-to-Host/raw/main/usbotg2host.dts
 
   armbian-add-overlay usbotg2host.dts
   
   
+  
+  
   Results: gave power to OTG port  (USB Host not working)
+  
+  
+  
   
 root@orangepilite:~# armbian-add-overlay usbotg2host.dts
 
