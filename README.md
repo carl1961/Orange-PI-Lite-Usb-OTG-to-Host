@@ -20,7 +20,6 @@ armbian-config
 toggle usb on (when saved * should stay )
 <img width="300" height="300" src="https://github.com/carl1961/Orange-PI-Lite-Usb-OTG-to-Host/blob/main/usb.PNG">
  
-https://github.com/carl1961/Orange-PI-Lite-Usb-OTG-to-Host/blob/main/usb.PNG
 
  This is how I was able to install using ssh terminal (putty)
 
